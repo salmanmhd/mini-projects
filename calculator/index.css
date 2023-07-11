@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+.container {
+    height: 90vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap?; */
+    flex-direction: column;
+
+}
+
+.calculator {
+    padding: 15px;
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    background-color: #ecf0f3;
+    height: 60px;
+    width: 260px;
+    box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 50px;
+    border: none;
+    color: rgb(70, 70, 70);
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.button {
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+.equals {
+    width: 115px;
+    border-radius: 40px;
+    box-shadow: inset -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+
+}
+
+/* footer {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+} */
+
+footer {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        font-size: 16px;
+    }
+
+    .container {
+        height: 65vh;
+    }
+
+}

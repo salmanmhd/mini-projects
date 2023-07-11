@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(34, 179, 34), rgb(8, 73, 8));
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(280deg, rgb(42, 234, 255), rgb(9, 60, 65));
+}
+
+.text {
+    display: inline;
+    color: white;
+    margin: 50px;
+    font-size: 20px;
+    font-family: monospace;
+}
